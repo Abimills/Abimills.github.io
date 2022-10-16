@@ -82,5 +82,4 @@ const restartPage = () => {
   localStorage.removeItem('currentScore');
 
   initWelcomePage();
-  
 };

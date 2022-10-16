@@ -9,7 +9,7 @@ export const showScore = (overallScore) => {
 
   scoreNum.classList.add('score-num');
   scoreNum.textContent = overallScore;
-  
+
   userInterface.appendChild(scoreDiv);
   scoreDiv.appendChild(scoreNum);
 };
