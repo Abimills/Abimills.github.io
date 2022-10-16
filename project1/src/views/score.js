@@ -6,8 +6,10 @@ export const showScore = (overallScore) => {
   const scoreDiv = document.createElement('div');
   scoreDiv.classList.add('score-container');
   const scoreNum = document.createElement('h1');
+
   scoreNum.classList.add('score-num');
   scoreNum.textContent = overallScore;
+  
   userInterface.appendChild(scoreDiv);
   scoreDiv.appendChild(scoreNum);
 };
