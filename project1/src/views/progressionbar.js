@@ -1,8 +1,8 @@
-import { USER_INTERFACE_ID } from '../constants.js';
+
 import { quizData } from '../data.js';
 
 export const progressionBar = () => {
-  const userInterface = document.getElementById(USER_INTERFACE_ID);
+  const userInterface = document.getElementById('user-interface');
 
   const progressionDiv = document.createElement('div');
   progressionDiv.classList.add('progress-container');
