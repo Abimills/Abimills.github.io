@@ -2,18 +2,18 @@
 import { quizData } from '../data.js';
 
 export const progressionBar = (myParent,myIndex) => {
-  const userInterface = document.getElementById(myParent);
+  const userParent = document.getElementById(myParent);
 
   const progressionDiv = document.createElement('div');
   progressionDiv.classList.add('progress-container');
   const progress = document.createElement('div');
   progress.classList.add('progress');
 
-  userInterface.appendChild(progressionDiv);
+  userParent.appendChild(progressionDiv);
   progressionDiv.appendChild(progress);
-  // let num = 43;
+  let num = 43;
 
-  // num *= myIndex;
+  num *= myIndex;
 
-  // progress.style.width =` ${num}px`;
+  progress.style.width =` ${num}px`;
 };
