@@ -1,8 +1,8 @@
-import { USER_INTERFACE_ID } from '../constants.js';
+
 import { quizData } from '../data.js';
 
-export const progressionBar = () => {
-  const userInterface = document.getElementById(USER_INTERFACE_ID);
+export const progressionBar = (myParent,myIndex) => {
+  const userInterface = document.getElementById(myParent);
 
   const progressionDiv = document.createElement('div');
   progressionDiv.classList.add('progress-container');
@@ -13,7 +13,7 @@ export const progressionBar = () => {
   progressionDiv.appendChild(progress);
   let num = 43;
 
-  num *= quizData.currentQuestionIndex;
+  num *= myIndex;
 
-  progress.style.width = num + 'px';
+  progress.style.width =` ${num}px`;
 };

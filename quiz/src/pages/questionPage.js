@@ -57,7 +57,7 @@ const nextQuestion = () => {
   if (quizData.currentQuestionIndex < quizData.questions.length) {
     initQuestionPage();
 
-    progressionBar();
+    progressionBar(USER_INTERFACE_ID,quizData.currentQuestionIndex);
 
     localStorage.setItem('currentScore', quizData.currentScore);
     localStorage.setItem('currentIndex', quizData.currentQuestionIndex);

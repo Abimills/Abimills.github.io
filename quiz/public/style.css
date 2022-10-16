@@ -1,6 +1,6 @@
-@import url('http://fonts.cdnfonts.com/css/designer-notes');
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
 
 :root {
   --primary-color: #f1f3f5;
@@ -15,13 +15,13 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif, Arial, Helvetica, sans-serif;
-
+ 
   background-image: url(https://i.pinimg.com/originals/f1/0f/4e/f10f4eecbafe16d7a2b50a8e06d121f8.gif);
 
   background-repeat: no-repeat;
-  font-family: 'Designer Notes Bold', sans-serif;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   overflow: hidden;
+
 }
 
 .mt-1 {
