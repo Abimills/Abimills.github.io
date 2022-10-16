@@ -11,9 +11,9 @@ export const progressionBar = (myParent,myIndex) => {
 
   userInterface.appendChild(progressionDiv);
   progressionDiv.appendChild(progress);
-  let num = 43;
+  // let num = 43;
 
-  num *= myIndex;
+  // num *= myIndex;
 
-  progress.style.width =` ${num}px`;
+  // progress.style.width =` ${num}px`;
 };
