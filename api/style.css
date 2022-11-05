@@ -1,0 +1,643 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    overflow-x: hidden; 
+    font-family: 'Poor Story', cursive;
+background-color: rgb(27, 54, 45);
+}
+.category-container{
+    
+   width: 100%;
+    margin-top: 3.7rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgb(27, 54, 45);
+    transition: all 1s ease;
+
+}
+.container-one{
+    background-image: url(https://i.pinimg.com/736x/93/3a/88/933a88539897ac96d71b65c27122b3ec.jpg);
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    background-color: rgb(79, 118, 105);
+    padding: 10px;
+    margin: 0.4rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.container-one h1{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: white;
+}
+.container-one img{
+    object-fit: cover;
+    width:250px;
+    height: 165px;
+   border-radius: 50px;
+ 
+
+
+}
+.nav{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 60px;
+    background-color: rgb(8, 75, 22);
+
+    display: flex;
+    justify-content: right;
+    gap: 9rem;
+    align-items: center;
+    padding: 10px;
+    color:white;
+}
+.nav h3 {
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.nav h3:hover{
+    background-color: white;
+    border-radius: 10px;
+    color:black;
+}
+.logo{
+    
+    width:40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 3rem;
+}
+.about{
+    position: relative;
+width:100vw;
+height: 91vh ;
+    color:rgb(255, 255, 255);
+    top:50px;
+padding: 10px;
+background-image: url(https://moonandspoonandyum.com/wp-content/uploads/2022/02/Pinterest-Pin-Templates-Moon-and-Spoon-and-Yum-1200-x-1200-px-1200-x-630-px.jpg);
+background-size: cover;
+
+}
+.about h1{
+   margin-bottom: 3rem;
+   margin-top: 4rem;
+   z-index: 1;
+}
+.about p{
+    max-width: 500px;
+}
+.right-side-div{
+
+
+   width: 50%; 
+   height: 89.3vh;
+ 
+   background-color: rgba(13, 11, 11, 0.8);
+   padding: 10px;
+}
+.right-side-div img{
+    margin-top: 1rem;
+    width: 100px;
+    border-radius: 50%;
+    opacity: 0.3; 
+}
+/* */
+.home-container{
+    position: relative;
+        width: 100vw;
+
+       background-image: url(https://i.pinimg.com/originals/ce/e4/52/cee452e7a99c5571c6ce793f80090c29.jpg);
+       background-size: cover;
+       background-repeat: repeat;
+        margin-top: 3.6rem;
+      
+        color:white;
+}
+.dark-div{
+    width: 100vw;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.input{
+    width:60%;
+    background-color: beige;
+    color:rgb(230, 180, 19);
+    border: 1px solid white;
+    position: relative;
+    top:10%;
+    left:15%;
+    padding: 10px;
+    margin-left: 3rem;
+    outline: none;
+}
+.food-container{
+    position: absolute;
+    top:20%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    font-size: 0.5rem;
+  
+}
+.category-container{
+ 
+   
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color:white;
+    font-size:0.5rem;
+  
+}
+.indiv-container{
+    padding: 10px;
+    width: 280px;
+    height: 280px;
+    margin: 1rem;
+    margin-bottom: 3rem;
+   
+
+}
+.indiv-container img{
+    width:100%;
+   border-radius: 10px;
+}
+
+.appetite-text{
+    width: 900px;
+    font-size:3rem;
+    font-weight: 100;
+    margin-left: 38%;
+    margin-top: 15%;
+   
+}
+.p-text{
+    font-weight: 500;
+max-width: 300px;
+    text-align: center;
+    margin-left: -390px;
+    margin-top: 155%;
+   font-size: 0.9rem;
+  
+   
+}
+.order-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   gap:1rem;
+   background-color: rgba(85, 5, 5,0.4);
+   border-radius: 10px;
+   border-top-right-radius: 35px;
+   border-bottom-right-radius: 35px;
+}
+.order-container button{
+    /* position: relative;
+    top:-60px;
+    right:-63px; */
+   width:50px;
+   height: 50px;
+   padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(216, 129, 24);
+    border:1px solid rgb(216, 129, 24);
+    color:white;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 0.15rem;
+}
+.order-container button:hover{
+    background-color: transparent;
+  padding: 11px;
+}
+.alone-container{
+    display: flex;
+   align-items: center;
+   gap : 3rem;
+   margin-top: 3rem;
+   color:white;
+   background-image: url(https://wallpapercave.com/wp/wp9506513.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+.alone-container img{
+    width:400px;
+    height: 500px;
+    border-radius: 30px;
+    margin-left: 2rem;
+    padding: 10px;
+    margin-top: 2rem;
+    
+}
+.text-container{
+    width:450px;
+    height:450px;
+    padding: 10px;
+
+}
+.text-container h1 {
+    letter-spacing: 0.15rem;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: rgba(8, 45, 2, 0.3);
+
+}
+.order-btn-one{
+    margin-top:1rem;
+    padding:8px;
+    background-color: rgb(255, 153, 0);
+    outline: none;
+    border:1px solid rgb(255, 153, 0);
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+}
+.order-btn-one:hover{
+    background-color: transparent;
+    color:white;
+}
+.service-container{
+    width: 100vw;;
+   height: 100vh;;
+    background-image: url(https://img.freepik.com/free-psd/top-view-fast-food-black-background-mock-up_23-2148321326.jpg?w=2000);
+    background-size: cover;
+    overflow: hidden;
+}
+.contact-container{
+   position: relative;
+   top:-25rem;
+    width:37%;
+    display: flex;
+    flex-direction: column;
+   
+}
+.contact-container input{
+width: 90%;
+height: 40px;
+    margin-bottom: 1rem;
+    outline: none;
+    border:1px solid rgb(9, 78, 21);
+    margin-left: 1rem;
+    color: white;
+    text-indent: 1rem;
+    background-color: rgb(9, 78, 21);
+}
+
+.contact-container textarea{
+    background-color: rgb(9, 78, 21);
+    width:90%;
+    height: 60px;
+    margin-left: 1rem;
+    text-indent: 1rem;
+    border:1px solid rgb(9, 78, 21);
+    outline: none;
+    color: white;
+    
+}
+.send-btn{
+    margin-top: 1rem;
+    margin-left: 160px;
+    width:80px;
+    height:80px;
+    padding: 10px;
+    background-color: rgb(9, 78, 21);
+    border:1px solid rgb(32, 76, 90);
+    border-radius: 50%;
+    color:white;
+font-size: 1rem;
+}
+.send-btn:hover{
+    background-color: transparent;
+    color:white;
+}
+.location{
+    position: relative;
+    top:2rem;
+    left:30rem;
+    width: 65%;
+  height: 100%;
+    background-color: rgba(12, 1, 1,0.2);
+    padding: 10px;
+}
+.location h1{
+    color: rgb(250, 194, 82);
+    border-radius: 20px;
+    margin: 1rem;
+    
+    font-size: 1rem;
+}
+.location h1:nth-child(1){
+    margin-top: 25rem;
+   
+}
+
+@media screen and (max-width:1000px) {
+
+.nav {
+        justify-content: left;
+        gap: 7%;
+
+
+    }
+    .category-container{
+  
+      grid-template-columns: repeat(3, 270px); 
+   
+    
+      
+  }
+.home-container {
+
+    overflow-x: hidden;
+
+
+}
+
+ .appetite-text {
+     margin-left: 12%;
+
+ }
+  .p-text {
+
+      position: relative;
+      left: -16rem;
+  }
+  .food-container {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+
+
+  }
+
+  .indiv-container img {
+      width: 205px;
+      height: 250px;
+  }
+
+  
+
+  .order-container {
+      width: 200px;
+      margin-bottom: 1rem;
+  }
+
+  .indiv-container {
+      margin: 0.3rem;
+      margin-bottom: 0.5rem;
+      width: 255px;
+      height: 290px;
+  }
+
+  .alone-container img {
+      width: 300px;
+      height: 400px;
+      ;
+      margin-bottom: 4rem;
+  }
+
+  .text-container {
+
+      margin-top: 4rem;
+  }
+  .contact-container{
+    width:100%;
+    top:-60rem;
+   
+    
+  }
+  .contact-container input{
+
+    width:400px;
+    height: 30px;
+  }
+  .contact-container textarea{
+
+    width:400px;
+  
+  }
+ 
+  .location{
+    top:-15%;
+  }
+  .about p {
+      font-size: 0.7rem;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+    .nav{
+     justify-content: left;
+   gap:5%;
+    
+    
+    }
+                        .category-container {
+                            grid-template-columns: repeat(3, 240px);
+            
+                            padding: 10px;
+                            ;
+                            margin: 1rem;
+                            ;
+                        }
+            
+                        .category-container img {
+                            width: 220px;
+                        }
+    
+    .appetite-text{
+        margin-left: 10%;
+       
+    }
+        .indiv-container {
+            margin: 0.3rem;
+            margin-bottom: 0.5rem;
+            width: 235px;
+            height: 290px;
+        }
+                  .p-text {
+        
+                      position: relative;
+                      left: -18rem;
+                  }
+      .contact-container {
+      width: 100%;
+    top: -50rem;
+
+ }
+        .about p {
+            font-size: 0.7rem;
+        }
+}
+@media screen and (max-width:600px) {
+.nav {
+        justify-content: left;
+        gap: 4.5%;
+font-size: 0.6rem;
+
+    }
+        .category-container {
+   
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+            grid-template-columns: repeat(1, 270px);
+    
+    
+    
+        }
+    .input{
+        width:70%;
+        height: 30px;
+       left:0;
+    }
+.p-text{
+ left:-35rem;
+ font-size: 0.6rem;
+}
+.appetite-text{
+    font-size: 1.6rem;
+    margin-left: 4rem;
+}
+ .food-container {
+     grid-template-columns: repeat(1, 1fr);
+     gap: 1rem;
+     margin:2rem;
+    
+ }
+ .indiv-container {
+
+margin-left: 20%;
+margin-bottom: 1rem;
+ }
+
+
+ .alone-container img {
+
+width: 230px;
+height: 250px;
+margin: 0;
+ }
+.text-container{
+    margin-right:15rem;
+    
+width: 500px;
+    /* margin:0; */
+    
+}
+.text-container h1 {
+    font-size: 0.7rem;
+  
+    margin-top:5rem;
+
+}
+.text-container button{
+    padding: 5px;
+   border-radius: 5px;
+   font-size: 0.6rem;
+}
+.text-container  {
+    margin-top: 7rem;
+    margin-left: -3rem;
+    font-size: 0.5rem;
+}
+
+  .contact-container {
+      width: 100%;
+      top: -39rem;
+     
+
+  }
+  .contact-container input{
+    width:80%;
+  }
+  .contact-container textarea{
+    width:80%;
+    height: 40px;
+  }
+  .contact-container button{
+    margin-left: 40%;
+    width:60px;
+    height: 60px;
+  }
+  .about p{
+    font-size: 0.5rem;
+  }
+  .text-container {
+    margin-top:13rem;;
+   
+  }
+  .text-container h1{
+    margin:0;;
+  }
+  .appetite-text{
+    margin-left: -1rem;
+    margin-top: -0.3rem;
+  }
+
+}
+
+@media screen and (max-width:300px) {
+    .nav {
+        justify-content: left;
+        gap: 4.5%;
+        font-size: 0.4rem;
+
+    }
+
+    .category-container {
+
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        grid-template-columns: repeat(1, 250px);
+
+
+
+    }
+        .contact-container {
+            width: 100%;
+            top: -30rem;
+    
+    
+        }
+    .indiv-container{
+      
+       
+        margin: 1rem;
+    }
+    .text-container{
+       
+        margin-left: -3rem;
+      
+    }
+    
+  .text-container button{
+    font-size: 0.5rem;
+  }
+  .text-container h1{
+    margin-top: 7rem;
+    font-size: 0.5rem;
+  }
+}
