@@ -1,9 +1,12 @@
 
-  const body = document.querySelector('body');
-    const root = document.querySelector('#root');
+
+   
+   
+
     
     
     const aboutUs = () => {
+         const root = document.querySelector('#root');
         root.innerHTML = '';
         const about = document.createElement('div');  
         const image = document.createElement('img');  
@@ -14,13 +17,13 @@
         about.classList.add('about')
         h1.textContent= 'About Us'
         p.textContent= `
-        We are a Company reponsible to geyou order your food in advance 
-        We are a Company reponsible to geyou order your food in advance 
-        We are a Company reponsible to geyou order your food in advance 
-        We are a Company reponsible to geyou order your food in advance 
-        We are a Company reponsible to geyou order your food in advance 
-        We are a Company reponsible to geyou order your food in advance 
-        We are a Company reponsible to geyou order your food in advance 
+        We are a Company responsible to get you order your food in advance 
+        We are a Company responsible to get you order your food in advance 
+        We are a Company responsible to get you order your food in advance 
+        We are a Company responsible to get you order your food in advance 
+        We are a Company responsible to get you order your food in advance 
+        We are a Company responsible to get you order your food in advance 
+        We are a Company responsible to get you order your food in advance 
         
         `
         image.src = `https://image.similarpng.com/very-thumbnail/2021/09/AB-abstract-logo-design-on-transparent-background-PNG.png`

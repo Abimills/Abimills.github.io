@@ -6,7 +6,6 @@ import {servicesFunc} from './service.js';
 
 
 const navbar = () => {
-    const body = document.querySelector('body');
     const everything = document.querySelector('#everything');
     const Navbar = document.createElement('div');            
     const image = document.createElement('img');  
